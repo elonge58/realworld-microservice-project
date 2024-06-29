@@ -16,8 +16,9 @@ spec:
       serviceAccountName: default
       terminationGracePeriodSeconds: 5
       containers:
-      - name: server
-        image: awanmbandi/recommendationservice:latest
+      - name: servergit add -A ; git commit -m 'updated jenkinsfile, test and prod deployment.yaml' ; git push
+      
+        image: jude58/recommendationservice:latest
         ports:
         - containerPort: 8080
         readinessProbe:
